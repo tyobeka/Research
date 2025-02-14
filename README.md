@@ -14,8 +14,8 @@ The notebooks used for data cleaning include:
 - cleaning_test_sets.ipynb: Code for cleaning global test set, i.e., removing  string that indicates which document the sentences were sourced from.
 
 The notebooks used for tokenization:
-- standard-subword-tok-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the standard subword tokenization methods + converting tokenized sentences to numerical representations for modelling
-- -subword-reg-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the subword regularization methods + converting tokenized sentences to numerical representations for modelling.
+- standard-subword-tok-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the standard subword tokenization methods, and converting tokenized sentences to numerical representations for modelling
+- subword-reg-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the subword regularization methods, and converting tokenized sentences to numerical representations for modelling.
 - training-target-tokenizer.ipynb: Code for training task-specific tokenizer for target language
 - mlm-tok.ipynb: Code for tokenizing target language using the trained task-specific tokenizer for target language.
 - task-subword-tok.ipynb: Code for converting tokenized sentences in the third experiment to numerical representations for modelling.
