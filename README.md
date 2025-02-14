@@ -10,7 +10,7 @@ A description of the structure of each folder labelled: "eng-to-*tgt"
 
 ### Notebooks:
 The notebooks used for data cleaning include:
-- preprocessing_for_eng_to_*tgt.ipynb: Code for data splitting, cleaning training and validation corpora
+- `preprocessing_for_eng_to_*tgt.ipynb`: Code for data splitting, cleaning training and validation corpora
 - cleaning_test_sets.ipynb: Code for cleaning global test set, i.e., removing  string that indicates which document the sentences were sourced from.
 
 The notebooks used for tokenization:
