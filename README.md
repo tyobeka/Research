@@ -28,11 +28,12 @@ The notebooks used for model evaluation:
 - `significance test.ipynb`: Code for computing BLEU scores and significance tests on post-processed predictions.
 
 ## Folders:
+The following folder contains the raw text file
 - `Autshumato-Evaluation-Set`: Contains raw text files for global test corpora
 
 In the following folders you will find the outputs for each experiment:
-- `bpe`: Contains the trained model folder for BPE experiment, the folder includes trained translation model, predictions, and the joint vocabulary.
-- `ulm`: Contains the trained model folder for ULM experiment, the folder includes trained translation model, predictions, and the joint vocabulary.
-- `bpeDROP`: Contains the trained model folder for BPE-Dropout experiment, the folder includes trained translation model, predictions, and the joint vocabulary..
-- `ulmSR`: Contains the trained model folder for ULM with subword regularization experiment, the folder includes trained translation model, predictions, and the joint vocabulary..
-- `target-tok`: Contains the trained model folder for task-specific tokenizer experiment, includes trained translation model, trained target language tokenizer, predictions, and the joint vocabulary.
+- `bpe`: Contains the trained model folder for the BPE experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
+- `ulm`: Contains the trained model folder for the ULM experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
+- `bpeDROP`: Contains the trained model folder for the BPE-Dropout experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
+- `ulmSR`: Contains the trained model folder for the ULM with subword regularization experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
+- `target-tok`: Contains the trained model folder for task-specific tokenizer experiment, includes the trained translation model, trained target language tokenizer, predictions, and the joint vocabularies.
