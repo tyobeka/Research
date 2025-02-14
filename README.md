@@ -9,7 +9,7 @@ Structure of Folder:
 - *tgt.txt
 
 ### Notebooks:
-- \textbf{preprocessing_for_eng_to_*tgt.ipynb:} Code for data splitting, cleaning training and validation corpora
+- preprocessing_for_eng_to_*tgt.ipynb: Code for data splitting, cleaning training and validation corpora
 - standard-subword-tok-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the standard subword tokenization methods + converting tokenized sentences to numerical representations for modelling
 - subword-reg-eng-to-*tgt.ipynb: Code for tokenizing training and validation corpora using the subword regularization methods + converting tokenized sentences to numerical representations for modelling.
 - training-target-tokenizer.ipynb: Code for training task-specific tokenizer for target language
