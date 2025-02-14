@@ -1,14 +1,14 @@
-## Investigating Subword Tokenization Strategies for the Translation of English to Low-Resource South African Languages
+# Investigating Subword Tokenization Strategies for the Translation of English to Low-Resource South African Languages
 
 A description of the structure of each folder labelled: "eng-to-*tgt"
 - *tgt = nso, nde, tso
 
-### Raw text files
+## Raw text files
 - eng_to_*tgt_readme.txt
 - eng.txt
 - *tgt.txt
 
-### Notebooks:
+## Notebooks:
 The notebooks used for data cleaning include:
 - `preprocessing_for_eng_to_*tgt.ipynb`: Code for data splitting, cleaning training and validation corpora
 - `cleaning_test_sets.ipynb`: Code for cleaning global test set, i.e., removing  string that indicates which document the sentences were sourced from.
@@ -27,7 +27,7 @@ The notebooks used for model evaluation:
 - `evaluating-nmt.ipynb:` Code for generating predictions from test and global test corpora.
 - `significance test.ipynb`: Code for computing BLEU scores and significance tests on post-processed predictions.
 
-### Folders:
+## Folders:
 - `Autshumato-Evaluation-Set`: Contains raw text files for global test corpora
 
 In the following folders you will find the outputs for each experiment:
