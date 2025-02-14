@@ -3,7 +3,7 @@
 A description of the structure of each folder labelled: "eng-to-*tgt"
 - *tgt = nso, nde, tso
 
-## Raw text files
+## Raw text files:
 - eng_to_*tgt_readme.txt
 - eng.txt
 - *tgt.txt
