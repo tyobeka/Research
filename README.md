@@ -1,7 +1,7 @@
 ## Investigating Subword Tokenization Strategies for the Translation of English to Low-Resource South African Languages
 
 A description of the structure of each folder labelled: "eng-to-*tgt"
-*tgt = nso, nde, tso
+- *tgt = nso, nde, tso
 
 ### Raw text files
 - eng_to_*tgt_readme.txt
