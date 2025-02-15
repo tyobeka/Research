@@ -29,7 +29,7 @@ The notebooks used for model evaluation:
 
 ## Folders:
 The following folder contains the raw text file
-- `Autshumato-Evaluation-Set`: Contains raw text files for global test corpora
+- `Autshumato-Evaluation-Set`: Contains raw text files for global test corpora from https://repo.sadilar.org/handle/20.500.12185/506.
 
 In the following folders you will find the outputs for each experiment:
 - `bpe`: Contains the trained model folder for the BPE experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
