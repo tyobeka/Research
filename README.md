@@ -21,7 +21,7 @@ The notebooks used for tokenization:
 - `task-subword-tok.ipynb`: Code for converting tokenized sentences in the third experiment to numerical representations for modelling.
 
 The notebooks used for NMT model training:
-- `training-nmt.ipynb`: Code for training translation models for all experiments.
+- `training-nmt.ipynb`: Code for training translation models for all experiments. 
 
 The notebooks used for model evaluation:
 - `evaluating-nmt.ipynb:` Code for generating predictions from test and global test corpora.
@@ -37,3 +37,5 @@ In the following folders you will find the outputs for each experiment:
 - `bpeDROP`: Contains the trained model folder for the BPE-Dropout experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
 - `ulmSR`: Contains the trained model folder for the ULM with subword regularization experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
 - `target-tok`: Contains the trained model folder for task-specific tokenizer experiment, includes the trained translation model, trained target language tokenizer, predictions, and the joint vocabularies.
+
+**Please note:** Recent updates in Google Colab have caused compatibility issues with the Fairseq toolkit, preventing the toolkit from running with the specified configuration in the notebooks. However, I have tried to include logs in the notebooks as evidence that models did indeed run.
