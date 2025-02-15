@@ -7,7 +7,7 @@ A description of the structure of each folder labelled: "eng-to-*tgt"
 - eng_to_*tgt_readme.txt
 - eng.txt
 - *tgt.txt
-from https://hdl.handle.net/20.500.12185/572, https://hdl.handle.net/20.500.12185/406
+(sourced from https://hdl.handle.net/20.500.12185/576, https://hdl.handle.net/20.500.12185/572, https://hdl.handle.net/20.500.12185/406)
 
 ## Notebooks:
 The notebooks used for data cleaning include:
