@@ -40,4 +40,4 @@ In the following folders you will find the outputs for each experiment:
 - `bpeDROP`: Contains the trained model folder for the BPE-Dropout experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
 - `ulmSR`: Contains the trained model folder for the ULM with subword regularization experiment, the folder includes the trained translation model, predictions, and the joint vocabularies.
 - `target-tok`: Contains the trained model folder for task-specific tokenizer experiment, includes the trained translation model, trained target language tokenizer, predictions, and the joint vocabularies.
-- `case_for_tokenization`: Contains the code for performing eda on the training corpus to account for linguistic differences in source and target languages to make a case for subword tokenization
+- `case_for_tokenization`: Contains the code for performing EDA on the training corpus to account for linguistic differences in source and target languages to make a case for subword tokenization
